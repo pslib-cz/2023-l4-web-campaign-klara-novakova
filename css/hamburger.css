@@ -44,7 +44,7 @@
      transition: 1s;
      transform-origin: top;
      position: absolute;
-     background-color: white;
+     background-color: var(--cihlova);
      
    }
    .nav-menu {
