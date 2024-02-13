@@ -14,4 +14,8 @@ h2{
 }
 .thin{
     font-weight: 400;
+  
+}
+.header__logo{
+    padding: 1em;
 }
