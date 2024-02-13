@@ -1,0 +1,17 @@
+a{
+    text-decoration: none;
+   display: block;
+}
+img{
+    display: block;
+}
+html{
+    font-family: 'Inter', sans-serif;
+}
+h2{
+    font-weight: bold;
+    text-align: center;
+}
+.thin{
+    font-weight: 400;
+}
