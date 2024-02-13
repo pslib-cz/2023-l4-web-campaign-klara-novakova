@@ -1,9 +1,36 @@
+
 .uvod__obal{
     background-image: url(../images/ruzova-vlna.svg);
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 600px;
+    min-height: 650px;
 }
 h1{
    
+}
+.section{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.uvod__obal{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+.uvod__text{
+    max-width: 400px;
+    
+}
+.vyhody__obal{
+   margin: 0 auto;
+    max-width: 900px ;
+    display: grid;
+    grid-template-columns: 130px 130px 150px;
+    justify-content: space-between;
+    text-align: center;
+}
+.vyhody__item--ikonky{
+    margin: 0 auto;
+  align-self: end;
 }
