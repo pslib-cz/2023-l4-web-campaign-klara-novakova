@@ -36,7 +36,7 @@ h1{
   align-self: end;
 }
 .vice-z-kolekce{
-    background-image: url(../images/ruzova-vlna_2.svg);
+    background-image: url(../images/ruzova-vlna_2.svg); /* webp soubory udelat z png  sqoosh*/
     background-repeat: no-repeat;
     background-position: center;
     min-height: 850px;
