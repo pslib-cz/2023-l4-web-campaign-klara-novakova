@@ -45,3 +45,31 @@ h1{
    justify-content: center;
    align-items: center;
 }
+.button{
+    background-color: blue;
+   padding: 1em 2em 1em 2em;
+   width: fit-content;
+   border-radius: 2em;
+   color: aliceblue;
+}
+.produkty__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 635px;
+}
+.item__text{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+.produkty__item--1{
+    background-image: url(../images/ruzovy-flek_1.svg);
+ 
+}
+.produkty__item--2{
+    background-image: url(../images/ruzovy-flek_2.svg);
+   
+}
