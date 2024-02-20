@@ -26,6 +26,44 @@
 </head>
 
 <body>
+  <script type="module">
+    import Swiper from "https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js";
+
+    const swiper = new Swiper(".swiper", {
+      loop: true,
+      speed: 600,
+      effect: "slide",
+      keyboard: {
+        enabled: true,
+        onlyInViewport: false,
+      },
+
+      autoplay: {
+        delay: 2000,
+      },
+
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+        hideOnClick: true,
+      },
+
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+        clickable: true,
+        bulletElement: "a",
+        bulletClass: "swiper-pagination-bullet dot",
+      },
+
+      scrollbar: {
+        el: null,
+        draggable: true,
+      },
+    });
+
+    document.querySelector("#next-slide").onclick = () => swiper.slideNext();
+  </script>
   <header>
     <div class="top">
       <a class="header__logo" href="./index.html"><img src="./images/logo.svg" alt="Logo Hrnečky z poličky" /></a>
@@ -123,7 +161,7 @@
           <div class="swiper-pagination"></div>
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
-          <div class="swiper-scrollbar"></div>
+          
         </div>
   
   
