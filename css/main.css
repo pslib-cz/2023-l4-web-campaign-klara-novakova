@@ -4,6 +4,10 @@
     background-repeat: no-repeat;
     background-position: center;
     min-height: 650px;
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
 }
 h1{
    
@@ -13,10 +17,7 @@ h1{
     margin: 0 auto;
 }
 .uvod__obal{
-    display: flex;
-    flex-direction: row;
-   justify-content: center;
-   align-items: center;
+  
 }
 .uvod__text{
     max-width: 400px;
@@ -33,4 +34,14 @@ h1{
 .vyhody__item--ikonky{
     margin: 0 auto;
   align-self: end;
+}
+.vice-z-kolekce{
+    background-image: url(../images/ruzova-vlna_2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 850px;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
