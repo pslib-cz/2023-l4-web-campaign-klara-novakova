@@ -15,10 +15,9 @@ h1{
 .section{
     max-width: 1440px;
     margin: 0 auto;
+    padding:  2em 0em 2em 0em;
 }
-.uvod__obal{
-  
-}
+
 .uvod__text{
     max-width: 400px;
     
@@ -72,4 +71,26 @@ h1{
 .produkty__item--2{
     background-image: url(../images/ruzovy-flek_2.svg);
    
+}
+
+@media only screen and (max-width: 650px) {
+    
+.uvod__obal{
+    flex-direction: column;
+    background-size: 600px;
+    background-position: 0px -100px;
+    min-height: auto;
+    padding-top: 4em;
+}
+.uvod__text{
+    max-width: 300px;
+}
+.uvod__obrazek{
+    max-width: 300px;
+    max-height: 300px;
+}
+.vyhody__obal{
+    grid-template-columns: 1fr;
+    
+}
 }
