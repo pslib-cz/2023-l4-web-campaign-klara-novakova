@@ -1,4 +1,10 @@
 
+:root {
+    --modra:#166088;
+   --bila: #ffffff;
+   
+   }
+   
 .uvod__obal{
     background-image: url(../images/ruzova-vlna.svg);
     background-repeat: no-repeat;
@@ -15,6 +21,7 @@ h1{
 .section{
     max-width: 1440px;
     margin: 0 auto;
+   
     padding:  2em 0em 2em 0em;
 }
 
@@ -45,11 +52,11 @@ h1{
    align-items: center;
 }
 .button{
-    background-color: blue;
+    background-color: var(--modra);
    padding: 1em 2em 1em 2em;
    width: fit-content;
    border-radius: 2em;
-   color: aliceblue;
+   color: var(--bila);
 }
 .produkty__item{
     display: flex;
@@ -92,5 +99,8 @@ h1{
 .vyhody__obal{
     grid-template-columns: 1fr;
     
+}
+.produkty__item{
+    flex-direction: column;
 }
 }

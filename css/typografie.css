@@ -1,6 +1,12 @@
+:root {
+    --modra:#166088;
+   --bila: #ffffff;
+   --cerna: #000000;
+   }
 a{
     text-decoration: none;
    display: block;
+   color:var(--cerna);
 }
 img{
     display: block;
