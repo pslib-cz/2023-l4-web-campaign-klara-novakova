@@ -6,7 +6,7 @@
 .footer{
    background-color:var(--modra) ;
    text-align: center;
-  
+   
 }
 .footer__odkaz > a{
 color: var(--bila);

@@ -73,6 +73,7 @@
     flex-direction: column;
     max-width: 500px;
 }
+
 .produkty__item--1{
     background-image: url(../images/ruzovy-flek_1.svg);
  
@@ -85,7 +86,7 @@
    text-align: left;
    
 }
-.o-nas, .kontakt{
+.obal{
     margin: 0em 1.5em 0em 1.5em;
 }
 
@@ -101,6 +102,7 @@
 .uvod__text{
     max-width: 300px;
 }
+
 .uvod__obrazek{
     max-width: 300px;
     max-height: 300px;
@@ -121,6 +123,7 @@
     .produkty__item--1{
         background-size: 900px;
      background-position: 50% 70px ;
+     
     }
     .produkty__item--2{
         background-size: 900px;
@@ -128,7 +131,7 @@
     }
     .vice-z-kolekce{
         background-size: 800px;
-        min-height: 335px;
+        min-height: 400px;
     }
    
 }
