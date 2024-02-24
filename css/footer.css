@@ -1,4 +1,13 @@
-footer{
-    max-width: 1440px;
-    margin: 0 auto;
+:root {
+    --modra:#166088;
+   --bila: #ffffff;
+   --cerna: #000000;
+   }
+.footer{
+   background-color:var(--modra) ;
+   text-align: center;
+  
+}
+.footer__odkaz > a{
+color: var(--bila);
 }
